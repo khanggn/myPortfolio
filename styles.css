@@ -347,11 +347,6 @@ h3 {
 
 /* Media Query */
 
-@media (max-width: 1116px) {
-    .largeText {
-        display: none;
-    }
-}
 
 @media (max-width: 768px) {
     .aboutMeContent {
@@ -368,5 +363,50 @@ h3 {
         width: 100%;
         margin-left: 0;
         margin-top: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .project2Wrapper {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .project2Images {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .project2Text {
+        padding-left: 0;
+        padding-top: 0;
+    }
+}
+
+@media (max-width: 1116px) {
+    h2 {
+        font-size: 100px;
+        padding: 7% 5% 7% 5%;
+    }
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 50px;
+        padding: 5% 5% 5% 5%;
+    }
+
+    .image-gallery {
+        flex-direction: column;
+    }
+
+    .image-container {
+        width: 100%;
+        padding: 10px 0;
+    }
+
+    .imgOfOPTIMUS, .imgOfOPTIMUSNoMargin {
+        max-width: 100%;
     }
 }
