@@ -1,0 +1,372 @@
+.container-fluid{
+    padding: 2.5%;
+}
+
+/* Nav Bar */
+
+#navBar{
+    background-color: #3A4D39;
+}
+
+.navText{
+    color: #F1F6F9;
+    font-family: "Maven Pro", sans-serif;
+    font-size: 17px;
+}
+
+.navText:hover{
+    color: #a6daa2;
+    font-family: "Maven Pro", sans-serif;
+    font-size: 22px;
+}
+
+.navbar-light .navbar-toggler {
+    color: #F1F6F9;
+    border-color: #F1F6F9;
+    background-color: #F1F6F9;;
+}
+
+.navbar-item{
+    padding-left: 30px;
+}
+
+#nameIcon{
+    font-family: "Playwrite NL", cursive;
+    font-weight: 700;
+    font-size: 22px;
+    color: #F1F6F9;
+}
+
+.navbar-toggler {
+    margin-left: auto;
+    margin-right: 20px;
+}
+
+/* Links */
+a:link {
+    color: #a6daa2;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: #76725f;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #776B5D;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  a:active {
+    color: #579353;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
+
+/* Title */
+
+#title {
+    background-color: #FEFAE0;
+    position: relative;
+    padding: 0;
+}
+
+.title-container {
+    position: relative;
+    height: 100%;
+}
+
+.text-overlay {
+    position: relative;
+}
+
+h1 {
+    color: #3A4D39;
+    line-height: 140%;
+    text-align: right;
+    padding: 5% 7.5% 5% 7%;
+    font-size: 130px;
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    position: relative;
+    z-index: 2;
+}
+
+h2 {
+    color: #c9c3a12a;
+    line-height: 110%;
+    text-align: left;
+    padding: 7% 10% 7% 7%;
+    font-size: 220px;
+    font-family: "Lato", sans-serif;
+    font-weight: 1000;
+    font-style: normal;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1; 
+}
+
+
+.exclamation {
+    color: #776B5D;
+}
+
+/* About Me */
+
+#aboutMe {
+    background-color: #3A4D39;
+    position: relative;
+}
+
+.aboutMeContent {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0% 10% 7%;
+}
+
+.aboutMeText {
+    flex: 1 1 50%;
+    color: #FEFAE0;
+    font-family: "Lato", sans-serif;
+    line-height: 220%;
+    padding-right: 3%;
+    font-size: 17px;
+}
+
+.imgOfMe {
+    flex: 1 1 40%;
+    width: 500px;
+    height: auto;
+    margin-left: 60px;
+    border-radius: 25%;
+    border: solid 4px;
+    border-color: #776B5D;
+}
+
+h3 {
+    color: #FEFAE0;
+    padding: 7% 0% 0% 10%;
+    font-family: "Lato", sans-serif;
+    font-weight: bold;
+    margin-bottom: 0;
+    font-size: 40px;
+}
+
+/* Experiences */
+#experiences {
+    background-color: #FEFAE0;
+    position: relative;
+}
+
+.darkTitle {
+    color: #3A4D39;
+    padding: 7% 0% 0% 10%;
+    font-family: "Lato", sans-serif;
+    font-weight: bold;
+    margin-bottom: 0;
+    font-size: 40px;
+}
+
+.experienceHeading {
+    color: #3A4D39;
+    padding: 2.5% 10% .5%;
+    font-size: 30px;
+}
+
+.experienceText {
+    color: #3A4D39;
+    font-family: "Lato", sans-serif;
+    line-height: 220%;
+    font-size: 17px;
+    text-align: left;
+}
+
+.experienceContent {
+    padding: 0% 10% 7%;
+}
+
+.image-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.image-container {
+    text-align: center;
+    margin-top: 20px;
+    flex: 1;
+    padding: 0 15px;
+}
+
+.imgOfOPTIMUS, .imgOfOPTIMUSNoMargin {
+    width: 100%;
+    max-width: 350px;
+    border: solid 3px;
+    border-color: #3A4D39;
+}
+
+.caption {
+    color: #3A4D39;
+    font-family: "Lato", sans-serif;
+    font-size: 12px;
+    margin-top: 10px;
+    font-style: italic;
+}
+
+/* Projects */
+#projects {
+    background-color: #3A4D39;
+    position: relative;
+}
+
+.projectHeading{
+    color: #FEFAE0;
+    padding: 2.5% 10% .5%;
+    font-size: 30px;
+}
+
+.projectText{
+    color: #FEFAE0;
+    font-family: "Lato", sans-serif;
+    line-height: 220%;
+    font-size: 17px;
+    text-align: left;
+}
+
+.projectContent{
+    padding: 0% 10% 4%;
+}
+
+.project-image{
+    height: 370px;
+    width: auto;
+    padding-left: 35%;
+
+}
+
+.projectHeading2{
+    color: #FEFAE0;
+    padding: 3% 0% .5%;
+    font-size: 30px;
+    text-align: right;
+}
+
+.project2Content{
+    padding: 0% 10% 4%;
+}
+
+.project2Wrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 0% 0% 4%;
+}
+
+.project2Images {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+}
+
+.project2Images img {
+    width: 280px; 
+    height: auto;
+    margin-bottom : 20px; 
+    border: solid 3px #776B5D; 
+}
+
+.project2Text {
+    color: #FEFAE0;
+    font-family: "Lato", sans-serif;
+    line-height: 220%;
+    font-size: 17px;
+    text-align: right;
+    padding-left: 7%;
+    padding-top: 3.5%;
+}
+/* Relevant Courses */
+
+
+/* Contact Me */
+#contactInfo {
+    background-color: #FEFAE0;
+    position: relative;
+}
+
+.contactText{
+    flex: 1 1 50%;
+    color: #3A4D39;
+    font-family: "Lato", sans-serif;
+    line-height: 220%;
+    padding-right: 3%;
+    font-size: 17px;
+}
+
+.contactContent{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0% 10%;
+}
+
+#footer{
+    text-align: center;
+    padding-bottom: 7%;
+}
+
+.social-icon1 {
+    font-size: 70px;
+    width: auto;
+    padding-right: 1.5%;
+    color: #3A4D39;
+}
+
+.social-icon2 {
+    font-size: 70px;
+    width: auto;
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+    color: #3A4D39;
+}
+.social-icon3 {
+    font-size: 60px;
+    width: auto;
+    padding-left: 1.5%;
+    color: #3A4D39;
+}
+
+/* Media Query */
+
+@media (max-width: 1116px) {
+    .largeText {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .aboutMeContent {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .aboutMeText {
+        padding-right: 0;
+        padding-bottom: 20px;
+    }
+
+    .imgOfMe {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 20px;
+    }
+}
